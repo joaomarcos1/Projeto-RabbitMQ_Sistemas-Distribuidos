@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publique uma notícia:"
+        android:textSize="20pt"
+        android:padding="50px"/>
+
+    <EditText
+        android:id="@+id/etNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50px"/>
+
+    <Button
+        android:id="@+id/btPublicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publicar"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
